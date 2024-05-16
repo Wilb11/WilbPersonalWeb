@@ -20,7 +20,7 @@ List<ProjectUtils> projectUtils = [
     titles: 'Awesome Social Media App',
     description:
         'This is a just Fully functional Social media App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/poetically-.git',
+    links: 'https://github.com/Wilb11/Walmart-Sales-Forecasting.git',
   ),
   ProjectUtils(
     banners: 'assets/imgs/1.png',
@@ -28,7 +28,7 @@ List<ProjectUtils> projectUtils = [
     titles: 'Awesome CRM UI',
     description:
         'This is a just CRM UI Design using Figma, file is also available, check below.',
-    links: 'https://github.com/sudeshnb/',
+    links: 'https://github.com/Wilb11/Fraud-Detection.git',
   ),
   ProjectUtils(
     banners: 'assets/imgs/03.png',

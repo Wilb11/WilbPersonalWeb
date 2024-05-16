@@ -23,7 +23,7 @@ class ProjectCardState extends State<ProjectCard> {
     double height = MediaQuery.of(context).size.height;
     var theme = Theme.of(context);
     return InkWell(
-      hoverColor: Colors.transparent,
+      hoverColor: const Color.fromARGB(0, 14, 11, 11),
       splashColor: Colors.transparent,
       highlightColor: Colors.transparent,
       onTap: () => openURL(widget.project.links),

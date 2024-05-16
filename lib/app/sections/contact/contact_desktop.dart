@@ -21,11 +21,11 @@ class ContactDesktop extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: size.width / 8),
       child: Column(
         children: [
-          const CustomSectionHeading(text: "\nGet in Touch"),
+          const CustomSectionHeading(text: "\nContact Details"),
           Space.y(1.w)!,
           const CustomSectionSubHeading(
             text:
-                "If you want to avail my services you can contact me at the links below.",
+                "Here are my details",
           ),
           Space.y(2.w)!,
           Container(
@@ -66,26 +66,26 @@ class ContactDesktop extends StatelessWidget {
                         // SizedBox(height: AppDimensions.space(3)),
                       ],
                     ),
-                    InkWell(
-                      onTap: () => openURL(whatsapp),
-                      child: Container(
-                        padding: const EdgeInsets.symmetric(
-                            vertical: 5, horizontal: 20),
-                        decoration: BoxDecoration(
-                            gradient: buttonGradi,
-                            // border: Border.all(
-                            //     width: 2.0, color: theme.primaryColor),
-                            borderRadius: BorderRadius.circular(10)),
-                        child: const Text(
-                          'Get Started',
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.w500,
-                            color: textColor,
-                          ),
-                        ),
-                      ),
-                    ),
+                    // InkWell(
+                    //   onTap: () => openURL(whatsapp),
+                    //   child: Container(
+                    //     padding: const EdgeInsets.symmetric(
+                    //         vertical: 5, horizontal: 20),
+                    //     decoration: BoxDecoration(
+                    //         gradient: buttonGradi,
+                    //         // border: Border.all(
+                    //         //     width: 2.0, color: theme.primaryColor),
+                    //         borderRadius: BorderRadius.circular(10)),
+                    //     child: const Text(
+                    //       'Chat me',
+                    //       style: TextStyle(
+                    //         fontSize: 18,
+                    //         fontWeight: FontWeight.w500,
+                    //         color: textColor,
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ),
                   ],
                 ),
                 Container(color: Colors.white.withOpacity(0.2), height: 1),
